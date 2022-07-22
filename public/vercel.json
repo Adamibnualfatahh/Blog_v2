@@ -1,38 +1,26 @@
 {
     "version": 2,
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.4.0" }
+        "api/index.php": { "runtime": "vercel-php@0.3.1" }
     },
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
-    ],
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "/api/index.php"
+    }],
     "env": {
-        "APP_NAME": "BLOG ADAM",
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
-        "APP_URL": "https://blog-v2-nvw9hy0xy-adamibnualfatahh.vercel.app",
-        "APP_KEY=base64":"+HYeJyCZsMD+5nKS1zLRm9ko6MfkU4iRYv2F5Qk2zl4=",
+        "APP_DEBUG": "true",
+        "APP_URL": "https://blog-v2-49dfj5z2r-adamibnualfatahh.vercel.app",
+
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
         "APP_ROUTES_CACHE": "/tmp/routes.php",
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
+
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie",
-        "VIEW_COMPILED_PATH": "/tmp/views",
-        "SSR_TEMP_PATH": "/tmp/ssr",
-        "NODE_PATH": "node",
-        "API_KEY":"HKThCJVXL943A59bcasDqz1A",
-        "API_BLOG":"https://dev.to/api/articles/me",
-        "API_PROJECT":"https://cdn.contentful.com/spaces/cfexampleapi/entries?access_token=b4c0n73n7fu1",
-        "ACCESS_TOKEN":"yrN6ENfRxC_LBuUK7uciwMgg-yCaA8ZjXP0wGLyznKg",
-        "SPACE_ID":"ly8eyqniiod3",
-        "CONTENT_TYPE_ID":"yrN6ENfRxC_LBuUK7uciwMgg-yCaA8ZjXP0wGLyznKg"
-
+        "SESSION_DRIVER": "cookie"
     }
 }
