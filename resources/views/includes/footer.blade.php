@@ -15,11 +15,11 @@
   <div>
     <span class="footer-title">Social</span> 
     <div class="grid grid-flow-col gap-4">
-      <a href=""><i class="fa-brands fa-facebook fill-current text-2xl hover:text-3xl hover:animate-pulse"></i></a> 
-      <a href=""><i class="fa-brands fa-discord fill-current text-2xl hover:text-3xl hover:animate-pulse"></i></a> 
-      <a href=""><i class="fa-brands fa-youtube fill-current text-2xl hover:text-3xl hover:animate-pulse"></i></a> 
-      <a href=""><i class="fa-brands fa-github fill-current text-2xl hover:text-3xl hover:animate-pulse"></i></a> 
-      <a href=""><i class="fa-brands fa-instagram fill-current text-2xl hover:text-3xl hover:animate-pulse"></i></a> 
+      <a href="https://www.facebook.com/profile.php?id=100013124107382"><i class="fa-brands fa-facebook fill-current text-2xl hover:text-3xl hover:animate-pulse"></i></a> 
+      <a href="https://discordapp.com/users/719920442608975972"><i class="fa-brands fa-discord fill-current text-2xl hover:text-3xl hover:animate-pulse"></i></a> 
+      <a href="https://www.youtube.com/channel/UC2PJeSsEmhkNXZDtC4W0QgA/featured"><i class="fa-brands fa-youtube fill-current text-2xl hover:text-3xl hover:animate-pulse"></i></a> 
+      <a href="https://github.com/Adamibnualfatahh"><i class="fa-brands fa-github fill-current text-2xl hover:text-3xl hover:animate-pulse"></i></a> 
+      <a href="https://www.instagram.com/adam_ibnu025/"><i class="fa-brands fa-instagram fill-current text-2xl hover:text-3xl hover:animate-pulse"></i></a> 
     </div>
   </div>
 </footer>
