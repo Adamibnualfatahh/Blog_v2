@@ -23,7 +23,9 @@
                 <h3>{{ $request['page_views_count'] }} <i class="fa-solid fa-eye"></i></h3>     
                 @if ($request['tag_list'] != null)
                 <div class="card-actions md:justify-end">
-                <a href="https://dev.to/t/{{  $request['tag_list'][0] }}"><button class="btn ">{{ $request['tag_list'][0] }}</button></a>
+                   @foreach ($request['tag_list'] as $item)
+                    <a href="https://dev.to/t/{{  $item }}"><button class="btn ">{{ $item }}</button></a>
+                   @endforeach
                 </div> 
                 @endif
 
