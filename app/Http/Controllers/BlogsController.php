@@ -17,7 +17,8 @@ class BlogsController extends Controller
         $request = Http::withHeaders([
             'api-key' => env('API_KEY')
         ])->get(env('API_BLOG'))->json(); 
-        
+        dd($request);
+
         return view('main.blog', compact('request'));
     }
     
