@@ -6,6 +6,7 @@
 
     <div class="flex  justify-center py-2">
         <div class="flex card-side flex-col md:flex-row rounded-lg bg-base-100 shadow-xl">
+            
             @if ( $request['cover_image'] !== null )
             <img class=" md: w-full h-96 md:h-auto object-cover md:w-1/4 rounded-t-lg md:rounded-none md:rounded-l-lg" src="{{ $request['cover_image'] }}" alt="{{ $request['title'] }}"/>
             @else
